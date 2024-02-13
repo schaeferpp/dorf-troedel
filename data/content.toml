@@ -44,6 +44,9 @@ Haben wir Euer Interesse geweckt? Schreibt gerne eine unverbindliche E-Mail an <
 enable = true
 img = "img/books-1842261_1920.jpg"
 
+[sections_1]
+enable = true
+
 [[sections_1.section]]
 id="procedure"
 class=""
