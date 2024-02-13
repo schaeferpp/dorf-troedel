@@ -1,9 +1,5 @@
----
-title: "Dorf-Troedel"
-description: "Ein Dorf trödelt"
-theme_version: '2.8.2'
-cascade:
-  featured_image: ''
----
-
-# Die Seite ist noch im Aufbau.
++++
+title = 'Dorftrödel'
+date = 2023-12-21T22:58:08+01:00
+draft = false
++++

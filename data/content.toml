@@ -1,0 +1,77 @@
+[hero]
+pre_title = ""
+title = ""
+occupations = []
+bg_image = "img/hero.png"
+mobile_bg_image = "img/hero.png"
+
+[about]
+enable = true
+image = "img/2hauser.png"
+title = "Die Idee"
+content = """
+Flohmärkte gibt es überall. Aber ein ganzer Ort, der Trödelt? Diese Idee ist toll! Ein
+Dorftrödel-Event stärkt nicht nur die Gemeinschaft Eures Ortes und macht Spaß, sondern passt genau in
+unsere aktuelle Zeit: Trödel ist die pure gelebte Nachhaltigkeit.
+
+Beim Dorftrödel geht es darum, dass Ihr in Eurem Ort einen ganz besonderen Tag organisiert. Alle,
+die mitmachen wollen, können gegen einen kleinen Unkostenbeitrag auf ihrem eigenen
+Grundstück ihre Keller- und Dachbodenschätze verkaufen.
+
+Wir von dorf-troedel.de helfen Euch mit der Technik. Wir stellen Euch für kleines Geld eine
+Webseite zusammen, auf der Ihr Euer Dorf-Event bewerben könnt und die einzelnen Stände
+auf einer interaktiven Karte darstellen könnt. Die eigentliche Organisation und Absprache mit der
+Gemeinde/Stadt obliegt vollständig Euch.
+
+Haben wir Euer Interesse geweckt? Schreibt gerne eine unverbindliche E-Mail an <paul.dorf-troedel@realcyber.de>!
+"""
+
+[between_1]
+enable = true
+img = "img/books-1842261_1920.jpg"
+
+[sections_1]
+enable=true
+
+[[sections_1.section]]
+id="procedure"
+class=""
+title="Ablauf"
+content="""
+Nach einer kurzen Absprache, dass wir die technischen Gegebenheiten für Euren Dorftrödel stellen dürfen, benötigen wir
+von Euch noch ein paar Informationen
+
+- In welchem Ort soll der Trödel stattfinden?
+- An welchem Datum und zu welchen Uhrzeiten wird getrödelt?
+- Kurze Texte für die Webseite (Idee, ggfs. Spendenziele, Organisationsteam, etc.)
+- Eine Liste aller Trödel-Stellen in Eurem Ort mit Adresse und einer Info, was hier verkauft wird
+
+Die Webseite wird auf Basis der Webseite gestaltet, die Ihr hier gerade lest. Wenn Ihr gerne
+indivuelle Bilder oder anderes Material wie Flyer oder Plakate einbinden möchtet, ist das auch kein
+Problem.
+"""
+
+[between_2]
+enable = true
+img = "img/flea-market-343123.jpg"
+
+[sections_2]
+enable=true
+
+[[sections_2.section]]
+id="about"
+class=""
+title="Über Uns"
+content="""
+Die Internetseite für Euer Event wird bereitgestellt von *Paul Schaefer Cyber Services* (<https://realcyber.de>). Die
+Organisation des eigentlichen Events liegt bei Euch.
+"""
+
+[contact]
+enable = true
+title = "Standübersicht"
+content = """
+Auf einer Karte wie dieser findet Ihr auf Eurer Dorftrödel-Webseite eine Übersicht aller angemeldeten Stände.
+"""
+
+
