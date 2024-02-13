@@ -1,6 +1,17 @@
 {{ define "main" }} {{- partial "menu.html" . -}} {{- partial "header.html" .
 -}}
 
+{{ if .Site.Data.content.sections_0.enable }} {{ with .Site.Data.content.sections_0 }}
+{{ range .section }}
+<section class="{{ .class }}" id="{{ .id }}">
+  <div class="container">
+        <h2>{{ .title | safeHTML }}</h2>
+        {{ .content | markdownify | emojify }}
+  </div>
+</section>
+{{ end }}
+{{ end }} {{ end }}
+
 <!-- =============================
        Start About Me
     =============================== -->

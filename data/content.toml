@@ -5,6 +5,20 @@ occupations = []
 bg_image = "img/hero.png"
 mobile_bg_image = "img/hero.png"
 
+[sections_0]
+enable=true
+
+[[sections_0.section]]
+id="events"
+class="mt-5"
+title="Events"
+content = """
+Die folgenden Dorftrödel-Events werden durchgeführt:
+
+- [Dorftrödel in Reckenfeld](https://reckenfeld.dorf-troedel.de)
+"""
+
+
 [about]
 enable = true
 image = "img/2hauser.png"
@@ -29,9 +43,6 @@ Haben wir Euer Interesse geweckt? Schreibt gerne eine unverbindliche E-Mail an <
 [between_1]
 enable = true
 img = "img/books-1842261_1920.jpg"
-
-[sections_1]
-enable=true
 
 [[sections_1.section]]
 id="procedure"

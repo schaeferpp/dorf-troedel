@@ -4,6 +4,7 @@ title:
 theme: port-hugo
 params:
   enable_logo: false
+  logo_link: https://dorf-troedel.de
   plugins:
     css:
       - link: https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css
@@ -28,9 +29,9 @@ params:
     preloader: img/preloader.gif
 menu:
   main:
-    # - name: Home
-    #   URL: "#home"
-      # weight: 1
+    - name: Events
+      URL: "#events"
+      weight: 1
     - name: Idee
       URL: "#idea"
       weight: 2

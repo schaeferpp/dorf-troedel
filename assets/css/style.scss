@@ -1185,8 +1185,9 @@ ul.experience-chart {
   align-items: center; /* vertically center */
   img {
       flex-shrink: 1;
-      flex-grow: 1;
+      flex-grow: 0;
       object-fit: cover;
+      width: 82rem;
       max-width: 100%;
   }
 }
