@@ -6,7 +6,7 @@ bg_image = "img/hero.png"
 mobile_bg_image = "img/hero.png"
 
 [sections_0]
-enable=true
+enable=false
 
 [[sections_0.section]]
 id="events"
@@ -89,3 +89,15 @@ Auf einer Karte wie dieser findet Ihr auf Eurer Dorftrödel-Webseite eine Übers
 """
 
 
+[sections_3]
+enable=true
+
+[[sections_3.section]]
+id="events"
+class="mt-5"
+title="Events"
+content = """
+Die folgenden Dorftrödel-Events werden durchgeführt:
+
+- [Dorftrödel in Reckenfeld](https://reckenfeld.dorf-troedel.de)
+"""

@@ -29,9 +29,6 @@ params:
     preloader: img/preloader.gif
 menu:
   main:
-    - name: Events
-      URL: "#events"
-      weight: 1
     - name: Idee
       URL: "#idea"
       weight: 2
@@ -44,3 +41,6 @@ menu:
     - name: Standübersicht
       URL: "#overview"
       weight: 7
+    - name: Events
+      URL: "#events"
+      weight: 11
